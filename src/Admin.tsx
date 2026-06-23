@@ -176,7 +176,7 @@ export function Admin() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
 <Wordmark size="md" />
-              <span className="text-sm text-sky-teal font-medium border border-teal-accent/30 px-3 py-1 rounded-pill">
+              <span className="text-sm text-off-white font-medium border border-teal-accent/30 px-3 py-1 rounded-pill">
                 Admin
               </span>
             </div>
@@ -185,21 +185,21 @@ export function Admin() {
               <button
                 onClick={loadSignups}
                 disabled={isLoading}
-                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-sky-teal hover:bg-teal-accent/10 transition-colors disabled:opacity-50"
+                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-off-white hover:bg-teal-accent/10 transition-colors disabled:opacity-50"
               >
                 <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
                 Refresh
               </button>
               <button
                 onClick={handleExport}
-                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-sky-teal hover:bg-teal-accent/10 transition-colors"
+                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-off-white hover:bg-teal-accent/10 transition-colors"
               >
                 <Download className="w-4 h-4" />
                 Export CSV
               </button>
               <button
                 onClick={() => setIsAuthenticated(false)}
-                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-sky-teal hover:bg-teal-accent/10 transition-colors"
+                className="flex items-center gap-2 px-4 py-2 rounded-pill text-sm text-off-white hover:bg-teal-accent/10 transition-colors"
               >
                 <LogOut className="w-4 h-4" />
                 Sign out
