@@ -171,7 +171,7 @@ export function Admin() {
   return (
     <div className="min-h-screen bg-off-white">
       {/* Header */}
-      <header className="sticky top-0 bg-deep-teal z-40 shadow-lg">
+      <header className="sticky top-0 bg-teal-accent z-40 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
