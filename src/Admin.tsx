@@ -175,9 +175,7 @@ export function Admin() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-<div className="brightness-0 invert">
-                <Wordmark size="md" />
-              </div>
+<Wordmark size="md" />
               <span className="text-sm text-sky-teal font-medium border border-teal-accent/30 px-3 py-1 rounded-pill">
                 Admin
               </span>
