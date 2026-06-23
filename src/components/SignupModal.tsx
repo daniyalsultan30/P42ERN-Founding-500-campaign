@@ -218,7 +218,7 @@ export function SignupModal({ isOpen, onClose, onSuccess }: SignupModalProps) {
                         className={`px-3 py-1.5 rounded-pill text-sm border transition-all ${
                           surveyData.messageTypeFocus === option
                             ? 'bg-current-gradient text-white border-transparent'
-                            : 'border-border-mist text-body-gray hover:border-teal-accent'
+                            : 'border-body-gray/50 text-deep-teal bg-white/50 hover:border-teal-accent hover:bg-sage-mint/10'
                         }`}
                       >
                         {option}
@@ -247,7 +247,7 @@ export function SignupModal({ isOpen, onClose, onSuccess }: SignupModalProps) {
                       className={`px-3 py-1.5 rounded-pill text-sm border transition-all ${
                         surveyData.referralIntent === option
                           ? 'bg-current-gradient text-white border-transparent'
-                          : 'border-border-mist text-body-gray hover:border-teal-accent'
+                          : 'border-body-gray/50 text-deep-teal bg-white/50 hover:border-teal-accent hover:bg-sage-mint/10'
                       }`}
                     >
                       {option}
@@ -277,7 +277,7 @@ export function SignupModal({ isOpen, onClose, onSuccess }: SignupModalProps) {
                       className={`px-3 py-1.5 rounded-pill text-sm border transition-all ${
                         surveyData.useCaseTags.includes(tag)
                           ? 'bg-current-gradient text-white border-transparent'
-                          : 'border-border-mist text-body-gray hover:border-teal-accent'
+                          : 'border-body-gray/50 text-deep-teal bg-white/50 hover:border-teal-accent hover:bg-sage-mint/10'
                       }`}
                     >
                       {tag}
@@ -306,7 +306,7 @@ export function SignupModal({ isOpen, onClose, onSuccess }: SignupModalProps) {
                       className={`px-3 py-1.5 rounded-pill text-sm border transition-all ${
                         surveyData.blockers.includes(tag)
                           ? 'bg-current-gradient text-white border-transparent'
-                          : 'border-border-mist text-body-gray hover:border-teal-accent'
+                          : 'border-body-gray/50 text-deep-teal bg-white/50 hover:border-teal-accent hover:bg-sage-mint/10'
                       }`}
                     >
                       {tag}
