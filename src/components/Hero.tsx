@@ -10,7 +10,7 @@ export function Hero({ onOpenModal }: HeroProps) {
   const progressPercentage = (SIGNUP_COUNT / TOTAL_SPOTS) * 100;
 
   return (
-    <section className="min-h-screen bg-atmosphere-gradient relative overflow-hidden pt-16">
+    <section className="min-h-screen bg-atmosphere-gradient relative overflow-hidden pt-24">
       <Navbar onOpenModal={onOpenModal} />
 
       {/* Decorative blur circles */}
