@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid #D9ECE9;
+  }
+
+  .glass-card-fallback {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #D9ECE9;
+  }
+
+  @supports (backdrop-filter: blur(12px)) {
+    .glass-card-fallback {
+      background: rgba(255, 255, 255, 0.55);
+      backdrop-filter: blur(12px);
+    }
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-pill font-semibold text-white bg-current-gradient transition-all duration-300 hover:shadow-lg hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-pill font-semibold text-deep-teal border-2 border-deep-teal bg-transparent transition-all duration-300 hover:bg-deep-teal hover:text-white;
+  }
+
+  .pill-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-pill text-sm font-medium;
+  }
+
+  .stat-dark-card {
+    @apply bg-deep-teal border-t-2 border-emerald p-6 rounded-2xl;
+    background: linear-gradient(180deg, #00262b 0%, #002126 100%);
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+
+@layer utilities {
+  .text-gradient-current {
+    @apply bg-clip-text text-transparent bg-current-gradient;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
