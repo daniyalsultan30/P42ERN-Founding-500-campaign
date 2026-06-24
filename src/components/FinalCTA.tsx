@@ -17,7 +17,7 @@ export function FinalCTA({ onOpenModal }: FinalCTAProps) {
 
         {/* Subhead */}
         <p className="text-lg text-body-gray mb-8">
-          Join the Founding 500 and help shape how p42ern.ai understands communication.
+          Join the Founding 200 and help shape how p42ern.ai understands communication.
         </p>
 
         {/* CTA Button */}
