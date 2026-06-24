@@ -40,7 +40,7 @@ export function Benefits() {
         </h2>
 
         <p className="text-lg text-body-gray text-center max-w-2xl mx-auto mb-12">
-          Be one of the first 500 voices shaping p42ern.ai. Get real access, real input, and never pay for what comes later.
+          Be one of the first 200 voices shaping p42ern.ai. Get real access, real input, and never pay for what comes later.
         </p>
 
         {/* Benefits Grid */}
