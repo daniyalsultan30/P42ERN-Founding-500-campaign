@@ -150,7 +150,7 @@ export function SignupModal({ isOpen, onClose, onSuccess }: SignupModalProps) {
             </h3>
 
             <p className="text-center text-body-gray mb-6">
-              Join the Founding 500. Limited spots, open to everyone.
+              Join the Founding 200. Limited spots, open to everyone.
             </p>
 
             {/* Form */}
