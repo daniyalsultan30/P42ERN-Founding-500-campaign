@@ -16,13 +16,13 @@ export function Navbar({ onOpenModal }: NavbarProps) {
           <div className="flex items-center gap-4">
             <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-pill bg-sky-teal/20 text-deep-teal text-sm font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald animate-pulse" />
-              <span>Founding 500</span>
+              <span>Founding 200</span>
               <span className="text-body-gray">·</span>
               <span>{SIGNUP_COUNT} joined</span>
             </div>
 
             <button onClick={onOpenModal} className="btn-primary text-sm py-2.5">
-              Join the Founding 500
+              Join the Founding 200
             </button>
           </div>
         </div>
