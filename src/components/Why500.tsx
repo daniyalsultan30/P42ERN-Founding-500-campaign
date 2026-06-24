@@ -9,7 +9,7 @@ export function Why500() {
         {/* Badge */}
         <div className="flex justify-center mb-6">
           <div className="pill-badge bg-teal-accent/20 text-sky-teal">
-            WHY ONLY 500
+            WHY ONLY 200
           </div>
         </div>
 
@@ -19,13 +19,13 @@ export function Why500() {
         </h2>
 
         <p className="text-lg text-sage-mint/80 text-center max-w-2xl mx-auto mb-12">
-          We're intentionally capping this at 500 members so feedback stays close and personal, and the benchmark corpus grows on real, considered use, not noise. Your input shapes what we build next.
+          We're intentionally capping this at 200 members so feedback stays close and personal, and the benchmark corpus grows on real, considered use, not noise. Your input shapes what we build next.
         </p>
 
         {/* Stats */}
         <div className="grid sm:grid-cols-3 gap-6 mb-8">
           <div className="bg-teal-accent/10 rounded-2xl p-6 border border-teal-accent/20">
-            <div className="text-5xl font-bold text-emerald mb-3">500</div>
+            <div className="text-5xl font-bold text-emerald mb-3">200</div>
             <div className="text-sm font-semibold text-white mb-1">Total Spots</div>
             <div className="text-sm text-white/65">No exceptions</div>
           </div>
