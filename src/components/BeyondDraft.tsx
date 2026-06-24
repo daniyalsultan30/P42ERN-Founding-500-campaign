@@ -61,7 +61,7 @@ export function BeyondDraft() {
 
         {/* Caption */}
         <p className="text-center text-body-gray mb-4">
-          Coming to p42ern.ai in the Founding 500 era.
+          Coming to p42ern.ai in the Founding 200 era.
         </p>
 
         {/* NOTE: This claim is pending legal/marketing review before public launch */}
