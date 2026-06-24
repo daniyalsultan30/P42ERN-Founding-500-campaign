@@ -186,5 +186,5 @@ export const dummySignups: WaitlistSignup[] = [
   },
 ];
 
-export const SIGNUP_COUNT = 187;
-export const TOTAL_SPOTS = 500;
+export const SIGNUP_COUNT = 87;
+export const TOTAL_SPOTS = 200;
