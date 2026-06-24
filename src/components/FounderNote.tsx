@@ -36,7 +36,7 @@ export function FounderNote() {
             </p>
 
             <p>
-              I'm starting with 500 people, on purpose. Not because we can't scale faster, but because I want the first 500 people using this to actually shape what "landing well" means across very different kinds of messages and audiences. If that's you, you're not just trying it early. You're the reason it gets the rest of it right.
+              I'm starting with 200 people, on purpose. Not because we can't scale faster, but because I want the first 200 people using this to actually shape what "landing well" means across very different kinds of messages and audiences. If that's you, you're not just trying it early. You're the reason it gets the rest of it right.
             </p>
           </div>
 
