@@ -113,7 +113,7 @@ export function HowItWorks() {
           </div>
 
           <div className="stat-dark-card">
-            <div className="text-5xl font-bold text-emerald mb-3">500</div>
+            <div className="text-5xl font-bold text-emerald mb-3">200</div>
             <p className="text-sm text-white/80 leading-relaxed">
               founding members, open enrollment
             </p>
