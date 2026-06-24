@@ -22,7 +22,7 @@ export function Hero({ onOpenModal }: HeroProps) {
         <div className="flex justify-center mb-6">
           <div className="glass-card inline-flex items-center gap-2 px-4 py-2 rounded-pill text-sm font-medium text-deep-teal">
             <span className="w-2 h-2 rounded-full bg-emerald animate-pulse" />
-            <span>FOUNDING 500 PROGRAM</span>
+            <span>FOUNDING 200 PROGRAM</span>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export function Hero({ onOpenModal }: HeroProps) {
 
         {/* Subhead */}
         <p className="text-lg sm:text-xl text-body-gray text-center max-w-2xl mx-auto mb-8">
-          Join the first 500 members shaping p42ern.ai. See how your message will be received, by whom, and why, before it ever leaves your draft.
+          Join the first 200 members shaping p42ern.ai. See how your message will be received, by whom, and why, before it ever leaves your draft.
         </p>
 
         {/* CTA Button */}
@@ -57,7 +57,7 @@ export function Hero({ onOpenModal }: HeroProps) {
           </div>
           <div className="flex items-center gap-2">
             <Lock className="w-4 h-4 text-emerald" />
-            <span>Limited to 500 Members</span>
+            <span>Limited to 200 Members</span>
           </div>
         </div>
 
